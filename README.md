@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # AI-Powered College Enquiry Chatbot
 
@@ -30,3 +31,6 @@ streamlit run app.py
 
 ## Dataset Notice
 The included FAQ dataset contains illustrative sample information. It is not verified information about a real college.
+=======
+# college-enquiry-chatbot
+>>>>>>> 8dd89fba4bd2ad002128054e08bd06a9bdd365ee
