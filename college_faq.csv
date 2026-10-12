@@ -8,10 +8,12 @@ scholarships,Are scholarships available?,Example: Scholarship availability depen
 placements,Does the college provide placements?,Example: Contact the placement cell for verified placement information.
 hostel,Is hostel accommodation available?,Example: Contact the college office to confirm hostel availability and fees.
 facilities,Does the college have a library?,Example: Please confirm library facilities with the college administration.
-
+"How can I apply for admission?","Example: Complete the application form and submit the required documents.","Admissions"
+"What courses are available?","Example: Computer Science, Business Administration and Mathematics.","Courses"
 stream_selection,How do I choose a stream?,Choose a stream based on your interests academic strengths preferred subjects and future career goals. Discuss your options with a teacher or career counsellor.
 stream_selection,Which stream should I choose?,Consider the subjects you enjoy your strengths and the careers you may want to pursue before selecting a stream.
 subject_selection,How do I decide which subject is good for me?,List the subjects you enjoy compare your strengths and explore the careers connected to each subject. Ask a teacher or career counsellor for guidance.
 subject_selection,How do I select my subjects?,Check which subjects are available and required for your intended course or career. Confirm eligibility rules with your school or college.
 courses,How do I choose a college course?,Compare your interests course subjects eligibility requirements career options and available colleges before deciding.
 admissions,How do I apply for admission?,Follow the institution's official admission procedure and submit the required documents before the deadline.
+"How can I get a scholarship?","Please check the official college scholarship notices or contact the college office for eligibility and application details.","Scholarships"
