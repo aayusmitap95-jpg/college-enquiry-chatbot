@@ -11,10 +11,21 @@ st.set_page_config(
     layout="centered"
 )
 
-# Load the sample dataset
-@st.cache_data
+# # Load the sample dataset
+# @st.cache_data
+# def load_data():
+#     return pd.read_csv("college_faq.csv")
+
+# df = load_data()
+
 def load_data():
-    return pd.read_csv("college_faq.csv")
+    data = pd.read_csv("college_faq.csv")
+    data.columns = data.columns.str.strip()
+
+    data["question"] = data["question"].fillna("").astype(str).str.strip()
+    data["answer"] = data["answer"].fillna("").astype(str).str.strip()
+
+    return data
 
 df = load_data()
 
@@ -37,6 +48,8 @@ def get_response(user_question):
 
     best_index = similarities.argmax()
     best_score = similarities[best_index]
+    # st.write("Best matching FAQ:", df.iloc[best_index]["question"])
+    # st.write("Similarity score:", round(float(best_score), 3))
 
     if best_score < 0.20:
         return (
